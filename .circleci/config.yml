@@ -4,7 +4,7 @@ version: 2.1
 jobs:
   build-job:
     docker:
-      - image: cicrleci/node:14
+      - image: cirleci/node:14
     steps:
       - run: npm install
       - run: npm test
